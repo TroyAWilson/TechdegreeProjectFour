@@ -3,4 +3,6 @@
   compare data with content of img
   hide img that no longer match what's searched
 */
-$(.searchBar).hideseek();
+$(document).ready(function() {
+	$('#searchBar').hideseek();
+});
